@@ -1,0 +1,56 @@
+body {
+    background-color: #e0f7fa; /* 柔和的蓝色背景 */
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-buttons .nav-btn {
+    margin-left: 10px;
+    background-color: #e1bee7;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* 减去导航栏的高度 */
+}
+
+.calendar {
+    border: 2px solid #e57373;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.month-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
